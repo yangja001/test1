@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { Test2Component } from './test2/test2.component';
 import { LoginComponent } from './login/login.component';
 import { AddDeviceComponent } from './add-device/add-device.component';
+import { MenegeComponent } from './menege/menege.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Test2Component,
     LoginComponent,
-    AddDeviceComponent
+    AddDeviceComponent,
+    MenegeComponent
   ],
   imports: [
     BrowserModule
